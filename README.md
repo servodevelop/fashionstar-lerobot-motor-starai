@@ -10,7 +10,8 @@ pip install lerobot-motor-starai
 
 Install the package in editable mode:
 ```bash
-git clone git@github.com:servodevelop/fashionstar-lerobot-motor-starai.git
+git clone https://github.com/servodevelop/fashionstar-lerobot-motor-starai.git
 cd lerobot-motor-starai
 pip install -e .
 ```
+
