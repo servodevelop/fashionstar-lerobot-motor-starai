@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="lerobot_motor_starai",
+    name="lerobot-motor-starai",
     version="0.0.1",
     description="LeRobot motor integration",
     author="Welt-liu",
@@ -14,7 +14,8 @@ setup(
     python_requires=">=3.7",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache License",
+        # 修正许可证分类器
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
 )
