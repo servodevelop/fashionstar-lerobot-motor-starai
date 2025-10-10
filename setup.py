@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="lerobot_motor_starai",
-    version="0.0.1",
+    version="0.0.2",
     description="LeRobot motor integration",
     author="Welt-liu",
     author_email="1994524450@qq.com",
