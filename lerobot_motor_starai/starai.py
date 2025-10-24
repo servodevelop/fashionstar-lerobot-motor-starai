@@ -219,9 +219,10 @@ class StaraiMotorsBus(MotorsBus):
 
             if self.motors["gripper"].model == "rx8-u50":
                 write_data["gripper"].power = 100
+                write_data["gripper"].motion_time = 100
             else:
                 write_data["gripper"].power = 1000
-
+                write_data["gripper"].motion_time = 100
             self.port_handler.sync_write["Goal_Position"](write_data)
 
     @property
